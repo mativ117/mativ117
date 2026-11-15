@@ -4,7 +4,7 @@ A personal space for my projects, experiments, and interests. Built with curiosi
 
 ## Website
 
-The French personal showcase lives in `docs/`. It is a static website with no build dependencies.
+The French and English personal showcase lives in `docs/`, with English at `docs/en/`. It is a static website with no build dependencies.
 
 ### Publish with GitHub Pages
 
@@ -14,7 +14,7 @@ Expected address after publication: https://mativ117.github.io/mativ117/
 
 ### Add a project
 
-Edit `docs/projects.js` (including illustration alt text and caption). Include a short, plain-language description, its actual development status, a GitHub link, and a demo link only when available. Update this showcase when adding a new project. Run `node build.cjs` after editing to regenerate the static project presentations in `docs/index.html`. Commit both the data and regenerated HTML.
+Edit `docs/projects.js` (including illustration alt text and caption). Include a short, plain-language description, its actual development status, a GitHub link, and a demo link only when available. Update this showcase when adding a new project. Add matching English content to `docs/projects.en.json`. Run `node build.cjs` after editing to regenerate the static project presentations in `docs/index.html`. Commit both the data and regenerated HTML.
 
 ### Art direction
 
@@ -31,3 +31,7 @@ Google Fonts are optional; system fonts work without them. No analytics, account
 Short introduction → three project presentations → personal interests. Each project has one description and its current status. No filters for the current three projects. Project presentations are generated at development time and remain readable without JavaScript.
 
 Original SVG illustrations in `docs/assets/` depict document conversion, a conceptual basketball play, and an imagined exploration landscape. They are illustrations, not application screenshots. The game illustration is explicitly labeled as an interpretation.
+
+### Languages
+
+French at `/mativ117/`, English at `/mativ117/en/`. The FR / EN links work without JavaScript. Each page declares its language, canonical URL and alternate languages. No automatic redirect: visitors control their choice. Both pages include translated accessibility labels and illustration captions; English illustrations have localized lettering. Project names remain unchanged. Browser translation can provide other languages, but the site does not claim reviewed translations beyond French and English.
