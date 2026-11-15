@@ -16,3 +16,11 @@ Mathieu Orfila souhaite mentionner le basket, la F1, la musique et la science-fi
 ## Direction artistique
 
 Conserver le bleu nuit, l’ambre et les références orbitales subtiles. Garder le parcours court : introduction, projets, quelques repères personnels. Toute modification visible doit être cohérente en français et en anglais.
+
+## Ton des descriptions et cohérence GitHub
+
+- Privilégier une formulation naturelle centrée sur la promesse, l’usage et les bénéfices. Laisser les détails d’architecture au README technique.
+- Aligner le sens entre vitrine FR/EN, introduction des README et champ About/Description des dépôts. Mettre à jour ce dernier lorsque les outils le permettent ; sinon fournir le texte exact et signaler la limite, sans prétendre l’avoir changé.
+- Calque : simplicité et confidentialité (FR : « Transformez vos PDF et scans en documents Word, simplement et en toute confidentialité. » ; EN : « Turn PDFs and scans into Word documents, simply and privately. »).
+- Ne pas qualifier Calque d’outil d’anonymisation : il ne supprime pas les données personnelles du document. Éviter les garanties absolues de sécurité ou d’anonymat.
+- Illustrations CoachOS : conserver une géométrie cohérente de demi-terrain ou terrain complet, anneau centré, arc à trois points centré sur l’anneau et raccordé aux segments de coin.

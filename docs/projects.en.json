@@ -2,7 +2,7 @@
   "calque": {
     "category": "Tool · PDF → Word",
     "status": "In development",
-    "description": "Make a PDF or scan reusable in Word, simply and privately. Conversion stays in the browser, with two clear choices: keep the appearance of the pages or get text you can edit.",
+    "description": "Turn PDFs and scans into Word documents, simply and privately. Keep the look of your pages or get text you can edit.",
     "alt": "Illustration: a PDF page becomes a Word document, connected by an arrow.",
     "caption": "From the source document to text you can work with."
   },
@@ -10,7 +10,7 @@
     "category": "Basketball · Playbook",
     "status": "In development",
     "description": "Help design and communicate basketball plays: draw movements, organise a playbook, and present the game through animation. A personal tool for preparing sessions and sharing intentions with the team.",
-    "alt": "Illustrative basketball diagram: three numbered players, movements and a pass on a court.",
+    "alt": "Illustrative basketball half-court diagram: a centred hoop, key, three-point line, and three numbered players.",
     "caption": "Concept illustration · a play brought into motion."
   },
   "eclipse": {
