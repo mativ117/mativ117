@@ -35,3 +35,9 @@ Original SVG illustrations in `docs/assets/` depict document conversion, a conce
 ### Languages
 
 French at `/mativ117/`, English at `/mativ117/en/`. The FR / EN links work without JavaScript. Each page declares its language, canonical URL and alternate languages. No automatic redirect: visitors control their choice. Both pages include translated accessibility labels and illustration captions; English illustrations have localized lettering. Project names remain unchanged. Browser translation can provide other languages, but the site does not claim reviewed translations beyond French and English.
+
+### Keep project goals current
+
+Whenever a featured project's goal, scope or availability changes, review its current README and design documentation. Update its concise, goal-focused description and actual status in both `docs/projects.js` and `docs/projects.en.json`, then run `node build.cjs` and commit both generated pages. Do not present planned features as delivered. This editorial rule is recorded in `AGENTS.md`; it is not automatic synchronization.
+
+Project descriptions were checked against the source READMEs on 2026-11-15. Mathieu's stated interests include basketball, F1, music and science fiction; do not invent more specific personal preferences.
