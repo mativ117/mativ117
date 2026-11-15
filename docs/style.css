@@ -11,3 +11,16 @@ body{background:radial-gradient(ellipse at 85% 14%,#26394928,transparent 40%),va
 .hero-foot:after{content:'';height:2px;width:57px;background:var(--amber);position:absolute;left:0;top:-1px}
 .project-art svg,.paper,.moon{transition:transform .4s ease}.project:hover .court svg{transform:scale(1.025)}
 @media(prefers-reduced-motion:reduce){.project-art svg,.paper,.moon{transition:none}}
+/* Parcours éditorial allégé : introduction, projets, repères personnels. */
+.hero{min-height:590px;border-bottom:1px solid var(--line)}
+.hero-copy{padding:60px 0 65px}.intro{max-width:390px}.hero h1{font-size:clamp(54px,5.8vw,76px)}
+.hero:before{bottom:0}.projects{padding-top:65px}.section-heading{align-items:center;margin-bottom:12px}.section-heading h2{margin:0}
+.project{gap:65px;grid-template-columns:1.12fr 1fr;align-items:center;padding:40px 0}
+.project-visual{margin:0;min-width:0}.project-visual img{display:block;width:100%;height:auto;border-radius:4px;border:1px solid #ffffff0d}
+.project-visual figcaption{font-size:10px;color:var(--muted);line-height:1.5;margin-top:10px}
+.project-copy .description{font-size:14px;line-height:1.85;margin-top:18px;margin-bottom:0}
+.project-copy h3{font-size:31px;margin-top:20px}.project-links{margin-top:25px}.project-meta{letter-spacing:.4px}.status{white-space:nowrap}
+.about{padding-block:65px}.about-copy p{margin:0 0 16px}.about-link{display:inline-block;font-size:12px;color:var(--amber);border-bottom:1px solid #d9a66e55;padding-bottom:3px;margin-top:8px}.about-link span{margin-left:12px}
+.footer{border-top:1px solid var(--line)}
+@media(max-width:900px){.hero{min-height:540px}.project{gap:30px;grid-template-columns:1fr 1fr}.project-copy h3{font-size:27px}.project-meta{flex-wrap:wrap;gap:8px}.about{gap:35px}}
+@media(max-width:620px){.hero{min-height:0}.hero-copy{padding:45px 0 15px}.hero h1{font-size:56px}.hero .universe{height:245px;margin-top:0}.hero .planet{top:32px;width:160px;height:160px;left:calc(50% - 80px)}.hero .coordinate{bottom:15px}.hero .orbital-label{top:15px}.hero .orbit{width:275px;height:275px}.hero .orbit-two{width:310px;height:310px}.projects{padding-top:40px}.section-heading{display:flex;flex-wrap:wrap;gap:12px}.section-heading h2{font-size:30px}.section-heading .folio{font-size:8px}.project{grid-template-columns:1fr;gap:20px;padding-block:30px}.project-copy{padding:0}.project-copy h3{font-size:28px;margin-top:14px}.project-copy .description{margin-top:12px}.project-meta{flex-wrap:nowrap}.project-links{margin-top:18px}.about{padding-block:45px;gap:23px}.project-visual figcaption{font-size:9px}}
