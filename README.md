@@ -28,7 +28,7 @@ Google Fonts are optional; system fonts work without them. No analytics, account
 
 ### Page structure and illustrations
 
-Short introduction → three project presentations → personal interests. Each project has one description and its current status. No filters for the current three projects. Project presentations are generated at development time and remain readable without JavaScript.
+Short introduction → project presentations → personal interests. Each project has one description and its current status. No filters for the current projects. Project presentations are generated at development time and remain readable without JavaScript.
 
 Original SVG illustrations in `docs/assets/` depict document conversion, a conceptual basketball play, and an imagined exploration landscape. They are illustrations, not application screenshots. The game illustration is explicitly labeled as an interpretation.
 
@@ -41,3 +41,7 @@ French at `/mativ117/`, English at `/mativ117/en/`. The FR / EN links work witho
 Whenever a featured project's goal, scope or availability changes, review its current README and design documentation. Update its concise, goal-focused description and actual status in both `docs/projects.js` and `docs/projects.en.json`, then run `node build.cjs` and commit both generated pages. Do not present planned features as delivered. This editorial rule is recorded in `AGENTS.md`; it is not automatic synchronization.
 
 Project descriptions were checked against the source READMEs on 2026-11-15. Mathieu's stated interests include basketball, F1, music and science fiction; do not invent more specific personal preferences.
+
+### Processarium
+
+Processarium (`mativ117/processarium_ia`) is included in both languages with a workshop illustration. Its description follows its README: an animated educational workshop about roles, handoffs, parallel tasks and human decisions; it does not execute AI agents. Direct application link: https://mativ117.github.io/processarium_ia/. The Pages publishing workflow was verified successful when adding this project.

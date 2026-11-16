@@ -22,5 +22,13 @@
     "alt": "Mood illustration: a traveller follows a path towards an ancient gateway beneath an eclipse.",
     "caption": "An interpretation of the world · illustration, not a game screenshot.",
     "primaryLabel": "Play the prototype"
+  },
+  "processarium": {
+    "category": "Discovery · Animated workshop",
+    "status": "Interactive demo",
+    "description": "A small world for understanding how work comes together. Explore an animated workshop, follow roles and handoffs, and discover how parallel tasks and human decisions move a project forward.",
+    "primaryLabel": "Explore the workshop",
+    "alt": "Illustration of a miniature workshop: three workstations connected by paths, with characters and a review checkpoint.",
+    "caption": "Concept illustration · different roles working together."
   }
 }
