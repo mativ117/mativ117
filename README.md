@@ -45,3 +45,9 @@ Project descriptions were checked against the source READMEs on 2026-11-15. Math
 ### Processarium
 
 Processarium (`mativ117/processarium_ia`) is included in both languages with a workshop illustration. Its description follows its README: an animated educational workshop about roles, handoffs, parallel tasks and human decisions; it does not execute AI agents. Direct application link: https://mativ117.github.io/processarium_ia/. The Pages publishing workflow was verified successful when adding this project.
+
+### Visual composition
+
+Large typographic introduction with a layered orbital illustration; numbered two-column project gallery on desktop and a single column on mobile; a warm, light personal section creates a visual pause. Existing project illustrations and accurate CoachOS half-court geometry are preserved. External-link icons are inline SVGs. No client-side JavaScript is required. Reduced-motion preferences are respected.
+
+Browser verification covered French and English at 375, 768 and 1440 px: no horizontal overflow, four loaded illustrations, eight project links in application/source order, active language, and no JavaScript errors. Desktop and mobile screenshots were inspected during implementation.
