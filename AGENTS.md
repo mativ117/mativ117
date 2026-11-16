@@ -24,3 +24,7 @@ Conserver le bleu nuit, l’ambre et les références orbitales subtiles. Garder
 - Calque : simplicité et confidentialité (FR : « Transformez vos PDF et scans en documents Word, simplement et en toute confidentialité. » ; EN : « Turn PDFs and scans into Word documents, simply and privately. »).
 - Ne pas qualifier Calque d’outil d’anonymisation : il ne supprime pas les données personnelles du document. Éviter les garanties absolues de sécurité ou d’anonymat.
 - Illustrations CoachOS : conserver une géométrie cohérente de demi-terrain ou terrain complet, anneau centré, arc à trois points centré sur l’anneau et raccordé aux segments de coin.
+
+## Liens des projets
+
+Pour chaque projet publié, afficher d’abord un lien direct vers l’application ou le site, avec un libellé adapté au projet et traduit en FR/EN ; afficher ensuite le lien GitHub « Code source » / « Source code ». Conserver les adresses de publication vérifiées dans `docs/projects.js` et les libellés anglais dans `docs/projects.en.json`. Pour un projet non publié, ne pas inventer de lien : garder le lien source jusqu’à sa publication.

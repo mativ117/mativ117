@@ -2,22 +2,25 @@
   "calque": {
     "category": "Tool · PDF → Word",
     "status": "In development",
-    "description": "Turn PDFs and scans into Word documents, simply and privately. Keep the look of your pages or get text you can edit.",
+    "description": "Turn PDFs and scans into Word documents, simply and privately. Get editable text and review the result page by page.",
     "alt": "Illustration: a PDF page becomes a Word document, connected by an arrow.",
-    "caption": "From the source document to text you can work with."
+    "caption": "From the source document to text you can work with.",
+    "primaryLabel": "Use Calque"
   },
   "coachos": {
     "category": "Basketball · Playbook",
     "status": "In development",
     "description": "Help design and communicate basketball plays: draw movements, organise a playbook, and present the game through animation. A personal tool for preparing sessions and sharing intentions with the team.",
     "alt": "Illustrative basketball half-court diagram: a centred hoop, key, three-point line, and three numbered players.",
-    "caption": "Concept illustration · a play brought into motion."
+    "caption": "Concept illustration · a play brought into motion.",
+    "primaryLabel": "Open CoachOS"
   },
   "eclipse": {
     "category": "Game · 3D exploration",
     "status": "Playable prototype",
     "description": "Build a 3D fantasy action adventure that runs in a browser on desktop and mobile. The prototype combines exploration, combat, and puzzles in a guided expedition through a world still under construction.",
     "alt": "Mood illustration: a traveller follows a path towards an ancient gateway beneath an eclipse.",
-    "caption": "An interpretation of the world · illustration, not a game screenshot."
+    "caption": "An interpretation of the world · illustration, not a game screenshot.",
+    "primaryLabel": "Play the prototype"
   }
 }

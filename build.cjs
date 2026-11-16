@@ -17,7 +17,7 @@ for (const lang of ['fr','en']) {
   }
   return `<article class="project" id="${escape(p.id)}">
 <figure class="project-visual"><img src="${en?'../':'./'}assets/${escape(p.id)}${en?'-en':''}.svg" alt="${escape(p.alt)}" width="720" height="460" loading="lazy"><figcaption>${escape(p.caption)}</figcaption></figure>
-<div class="project-copy"><div class="project-meta"><span>${escape(p.category)}</span><span class="status">${escape(p.status)}</span></div><h3>${escape(p.name)}</h3><p class="description">${escape(p.description)}</p><div class="project-links">${p.demo?`<a class="project-primary" href="${escape(p.demo)}">${en?'Play the prototype':'Jouer au prototype'} <span aria-hidden="true">↗</span></a>`:''}<a href="${escape(p.source)}">${p.demo?(en?'Source code':'Code source'):(en?'View on GitHub':'Voir sur GitHub')} <span aria-hidden="true">↗</span></a></div></div>
+<div class="project-copy"><div class="project-meta"><span>${escape(p.category)}</span><span class="status">${escape(p.status)}</span></div><h3>${escape(p.name)}</h3><p class="description">${escape(p.description)}</p><div class="project-links">${p.demo?`<a class="project-primary" href="${escape(p.demo)}">${escape(p.primaryLabel || (en?'Open the app':'Ouvrir l’application'))} <span aria-hidden="true">↗</span></a>`:''}<a href="${escape(p.source)}">${p.demo?(en?'Source code':'Code source'):(en?'View on GitHub':'Voir sur GitHub')} <span aria-hidden="true">↗</span></a></div></div>
 </article>`;
  }).join('\n');
  const file = path.join(root,en?'en/index.html':'index.html');
