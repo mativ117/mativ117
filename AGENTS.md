@@ -32,3 +32,7 @@ Pour chaque projet publié, afficher d’abord un lien direct vers l’applicati
 ## Positionnement Processarium
 
 Présenter explicitement Processarium comme un atelier pour comprendre les processus de travail avec l’IA (rôles, échanges, parallélisme, validations humaines), et non le travail en général. Garder cette précision dans la catégorie et la première phrase, en français et en anglais. L’atelier illustre des scénarios ; ne pas prétendre qu’il exécute réellement des agents IA.
+
+## Statut visible obligatoire
+
+Chaque fiche doit afficher sous son titre une ligne « Statut » / « Status » avec un badge explicite et lisible (au moins 12 px), sur ordinateur et mobile. La génération doit refuser une valeur manquante. Vérifier le README du projet avant de changer son état ; distinguer développement, application publiée, version candidate et démonstration interactive. Maintenir les deux langues en même temps.

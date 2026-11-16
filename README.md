@@ -48,6 +48,10 @@ Processarium (`mativ117/processarium_ia`) is included in both languages with a w
 
 ### Visual composition
 
-Large typographic introduction with a layered orbital illustration; numbered two-column project gallery on desktop and a single column on mobile; a warm, light personal section creates a visual pause. Existing project illustrations and accurate CoachOS half-court geometry are preserved. External-link icons are inline SVGs. No client-side JavaScript is required. Reduced-motion preferences are respected.
+Personal introduction led by Mathieu Orfila’s name and a layered orbital illustration; quick navigation to four projects; large alternating image/text project panels on desktop and a single column on mobile; a warm, light personal section creates a visual pause. Existing project illustrations and accurate CoachOS half-court geometry are preserved. External-link icons are inline SVGs. No client-side JavaScript is required. Reduced-motion preferences are respected.
 
 Browser verification covered French and English at 375, 768 and 1440 px: no horizontal overflow, four loaded illustrations, eight project links in application/source order, active language, and no JavaScript errors. Desktop and mobile screenshots were inspected during implementation.
+
+### Explicit project status
+
+Every project has a visible Status row immediately after its title, in French and English. The badge is at least 12 px and remains visible on mobile. Source READMEs were rechecked: Calque is in development, CoachOS is a published app, Les Royaumes de l’Éclipse is a release candidate, and Processarium is an interactive demo. The adventure description and action label reflect its current three-chapter release candidate. Browser checks cover both languages at 320, 375, 768 and 1440 px, including visible nonempty status badges, loaded images, direct/source links and no horizontal overflow.
