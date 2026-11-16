@@ -48,10 +48,14 @@ Processarium (`mativ117/processarium_ia`) is included in both languages with a w
 
 ### Visual composition
 
-Personal introduction led by Mathieu Orfila’s name and a layered orbital illustration; quick navigation to four projects; large alternating image/text project panels on desktop and a single column on mobile; a warm, light personal section creates a visual pause. Existing project illustrations and accurate CoachOS half-court geometry are preserved. External-link icons are inline SVGs. No client-side JavaScript is required. Reduced-motion preferences are respected.
+Personal introduction led by “Create. Explore. Refine.” and a discreet mo. monogram and a layered orbital illustration; quick navigation to four projects; large alternating image/text project panels on desktop and a single column on mobile; a warm, light personal section creates a visual pause. Existing project illustrations and accurate CoachOS half-court geometry are preserved. External-link icons are inline SVGs. No client-side JavaScript is required. Reduced-motion preferences are respected.
 
 Browser verification covered French and English at 375, 768 and 1440 px: no horizontal overflow, four loaded illustrations, eight project links in application/source order, active language, and no JavaScript errors. Desktop and mobile screenshots were inspected during implementation.
 
 ### Explicit project status
 
-Every project has a visible Status row immediately after its title, in French and English. The badge is at least 12 px and remains visible on mobile. Source READMEs were rechecked: Calque is in development, CoachOS is a published app, Les Royaumes de l’Éclipse is a release candidate, and Processarium is an interactive demo. The adventure description and action label reflect its current three-chapter release candidate. Browser checks cover both languages at 320, 375, 768 and 1440 px, including visible nonempty status badges, loaded images, direct/source links and no horizontal overflow.
+Every project has a visible Status row immediately after its title, in French and English. The badge is at least 12 px and remains visible on mobile. The fixed taxonomy now assigns Calque and CoachOS to In development, Processarium to Prototype available, and Les Royaumes de l’Éclipse to Release candidate. Publication alone does not imply a Stable release. The adventure description and action label reflect its current three-chapter release candidate. Browser checks cover both languages at 320, 375, 768 and 1440 px, including visible nonempty status badges, loaded images, direct/source links and no horizontal overflow.
+
+### Fixed status taxonomy
+
+`docs/statuses.json` is the sole source for four French/English display labels and definitions. Projects store a shared code in `docs/projects.js`: `development`, `prototype`, `candidate` or `stable`. Do not duplicate status translations in `docs/projects.en.json`. `node build.cjs` resolves the shared code, rejects unknown states and generates both badges and the expandable status guide. The same four labels must be used for future projects.

@@ -35,4 +35,19 @@ Présenter explicitement Processarium comme un atelier pour comprendre les proce
 
 ## Statut visible obligatoire
 
-Chaque fiche doit afficher sous son titre une ligne « Statut » / « Status » avec un badge explicite et lisible (au moins 12 px), sur ordinateur et mobile. La génération doit refuser une valeur manquante. Vérifier le README du projet avant de changer son état ; distinguer développement, application publiée, version candidate et démonstration interactive. Maintenir les deux langues en même temps.
+Chaque fiche doit afficher sous son titre une ligne « Statut » / « Status » avec un badge explicite et lisible (au moins 12 px), sur ordinateur et mobile. La génération doit refuser une valeur manquante. Vérifier le README du projet avant de changer son état ; utiliser exclusivement la nomenclature définie ci-dessous. Maintenir les deux langues en même temps.
+
+## Nomenclature fixe des statuts
+
+Source unique : `docs/statuses.json`. Dans `docs/projects.js`, utiliser uniquement les codes `development`, `prototype`, `candidate`, `stable`. Ne pas ajouter de statut libre ni de traduction d’état dans `docs/projects.en.json` : le build traduit le code commun pour les deux langues et refuse les codes inconnus.
+
+- `development` — En développement / In development : fonctionnalités ou validations encore en chantier, même si une version est accessible.
+- `prototype` — Prototype disponible / Prototype available : première expérience pour essayer le concept, périmètre limité.
+- `candidate` — Version candidate / Release candidate : périmètre prévu livré, dernières validations avant stabilisation.
+- `stable` — Version stable / Stable release : périmètre annoncé validé pour un usage courant. Ne pas déduire la stabilité de la seule publication.
+
+Cette nomenclature remplace les anciens libellés « Application publiée » et « Démonstration interactive ». Attribution actuelle : Calque et CoachOS `development`, Processarium `prototype`, Les Royaumes de l’Éclipse `candidate`. Revoir l’attribution sur preuves lors des évolutions, sans multiplier les libellés.
+
+## Signature personnelle discrète
+
+Mathieu ne veut pas son prénom/nom en très grand. Garder `mo.` comme signature visuelle, et « Créer. Explorer. Affiner. » / « Create. Explore. Refine. » comme titre d’accueil. Le nom peut rester discret dans le pied de page et les métadonnées.

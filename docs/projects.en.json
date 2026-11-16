@@ -1,7 +1,6 @@
 {
   "calque": {
     "category": "Tool · PDF → Word",
-    "status": "In development",
     "description": "Turn PDFs and scans into Word documents, simply and privately. Get editable text and review the result page by page.",
     "alt": "Illustration: a PDF page becomes a Word document, connected by an arrow.",
     "caption": "From the source document to text you can work with.",
@@ -9,7 +8,6 @@
   },
   "coachos": {
     "category": "Basketball · Playbook",
-    "status": "Published app",
     "description": "Help design and communicate basketball plays: draw movements, organise a playbook, and present the game through animation. A personal tool for preparing sessions and sharing intentions with the team.",
     "alt": "Illustrative basketball half-court diagram: a centred hoop, key, three-point line, and three numbered players.",
     "caption": "Concept illustration · a play brought into motion.",
@@ -17,7 +15,6 @@
   },
   "eclipse": {
     "category": "Game · 3D exploration",
-    "status": "Release candidate",
     "description": "A 3D fantasy action adventure to explore in your browser on desktop and mobile. Discover three chapters of combat and puzzles, with multiple heroes and choices along the way. The release candidate is still being validated.",
     "alt": "Mood illustration: a traveller follows a path towards an ancient gateway beneath an eclipse.",
     "caption": "An interpretation of the world · illustration, not a game screenshot.",
@@ -25,7 +22,6 @@
   },
   "processarium": {
     "category": "AI · Learning workshop",
-    "status": "Interactive demo",
     "description": "A small animated world for understanding AI workflows: roles, handoffs, parallel tasks, and human review. Explore step-by-step scenarios to see how these elements fit together in a project.",
     "primaryLabel": "Explore the workshop",
     "alt": "Illustration of a miniature workshop: three workstations connected by paths, with characters and a review checkpoint.",
