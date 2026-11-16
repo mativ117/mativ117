@@ -39,13 +39,13 @@ window.projects = [
   {
     "id": "processarium",
     "name": "Processarium",
-    "category": "Découverte · Atelier animé",
+    "category": "IA · Atelier pédagogique",
     "status": "Démonstration interactive",
-    "description": "Un petit monde pour comprendre comment le travail s’organise. Explorez un atelier animé, suivez les rôles et les échanges, et découvrez comment les tâches en parallèle et les décisions humaines font avancer un projet.",
+    "description": "Un petit monde animé pour comprendre les processus de travail avec l’IA : répartition des rôles, échanges, tâches en parallèle et validations humaines. Explorez des scénarios pas à pas pour voir comment ces éléments s’articulent dans un projet.",
     "demo": "https://mativ117.github.io/processarium_ia/",
     "primaryLabel": "Explorer l’atelier",
     "source": "https://github.com/mativ117/processarium_ia",
     "alt": "Illustration d’un atelier miniature : trois postes reliés par des chemins, avec leurs personnages et un point de validation.",
-    "caption": "Illustration de principe · des rôles qui travaillent ensemble."
+    "caption": "Illustration de principe · comprendre les processus IA."
   }
 ];

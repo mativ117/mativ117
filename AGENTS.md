@@ -28,3 +28,7 @@ Conserver le bleu nuit, l’ambre et les références orbitales subtiles. Garder
 ## Liens des projets
 
 Pour chaque projet publié, afficher d’abord un lien direct vers l’application ou le site, avec un libellé adapté au projet et traduit en FR/EN ; afficher ensuite le lien GitHub « Code source » / « Source code ». Conserver les adresses de publication vérifiées dans `docs/projects.js` et les libellés anglais dans `docs/projects.en.json`. Pour un projet non publié, ne pas inventer de lien : garder le lien source jusqu’à sa publication.
+
+## Positionnement Processarium
+
+Présenter explicitement Processarium comme un atelier pour comprendre les processus de travail avec l’IA (rôles, échanges, parallélisme, validations humaines), et non le travail en général. Garder cette précision dans la catégorie et la première phrase, en français et en anglais. L’atelier illustre des scénarios ; ne pas prétendre qu’il exécute réellement des agents IA.
