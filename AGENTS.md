@@ -11,11 +11,11 @@
 
 ## Présentation personnelle
 
-Mathieu Orfila souhaite mentionner le basket, la F1, la musique et la science-fiction, avec discrétion. Ne pas inventer d’artistes favoris, de genres musicaux, d’expériences biographiques ou d’informations personnelles.
+La section « Un terrain d’expérimentation » / « A space to experiment » présente la démarche : tester des idées, apprendre en construisant et affiner les projets. Ne pas remettre de liste de centres d’intérêt ni de détails biographiques. L’univers personnel reste suggéré par l’esthétique. Cette préférence remplace l’ancienne présentation des intérêts (basket, F1, musique, science-fiction).
 
 ## Direction artistique
 
-Conserver le bleu nuit, l’ambre et les références orbitales subtiles. Garder le parcours court : introduction, projets, quelques repères personnels. Toute modification visible doit être cohérente en français et en anglais.
+Conserver le bleu nuit, l’ambre et les références orbitales subtiles. Garder le parcours court : introduction, projets, démarche d’expérimentation. Toute modification visible doit être cohérente en français et en anglais.
 
 ## Ton des descriptions et cohérence GitHub
 

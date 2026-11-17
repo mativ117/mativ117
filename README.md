@@ -28,7 +28,7 @@ Google Fonts are optional; system fonts work without them. No analytics, account
 
 ### Page structure and illustrations
 
-Short introduction → project presentations → personal interests. Each project has one description and its current status. No filters for the current projects. Project presentations are generated at development time and remain readable without JavaScript.
+Short introduction → project presentations → experimentation approach. Each project has one description and its current status. No filters for the current projects. Project presentations are generated at development time and remain readable without JavaScript.
 
 Original SVG illustrations in `docs/assets/` depict document conversion, a conceptual basketball play, and an imagined exploration landscape. They are illustrations, not application screenshots. The game illustration is explicitly labeled as an interpretation.
 
@@ -48,7 +48,7 @@ Processarium (`mativ117/processarium_ia`) is included in both languages with a w
 
 ### Visual composition
 
-Personal introduction led by “Create. Explore. Refine.” and a discreet mo. monogram and a layered orbital illustration; quick navigation to four projects; large alternating image/text project panels on desktop and a single column on mobile; a warm, light personal section creates a visual pause. Existing project illustrations and accurate CoachOS half-court geometry are preserved. External-link icons are inline SVGs. No client-side JavaScript is required. Reduced-motion preferences are respected.
+Personal introduction led by “Create. Explore. Refine.” and a discreet mo. monogram and a layered orbital illustration; quick navigation to four projects; large alternating image/text project panels on desktop and a single column on mobile; a warm, light experimentation section creates a visual pause. Existing project illustrations and accurate CoachOS half-court geometry are preserved. External-link icons are inline SVGs. No client-side JavaScript is required. Reduced-motion preferences are respected.
 
 Browser verification covered French and English at 375, 768 and 1440 px: no horizontal overflow, four loaded illustrations, eight project links in application/source order, active language, and no JavaScript errors. Desktop and mobile screenshots were inspected during implementation.
 
@@ -58,3 +58,7 @@ Browser verification covered French and English at 375, 768 and 1440 px: no hori
 ### Project status
 
 Only three shared status codes are used: `building` (En chantier / Work in progress), `try` (À essayer / Try it out), `ready` (Prêt à utiliser / Ready to use). Display labels are centralized in `docs/statuses.json`. Calque and CoachOS currently use `building`; Processarium and Les Royaumes de l’Éclipse use `try`. `ready` requires evidence that the main use is validated. The build rejects unknown codes and generates both language badges. No explanatory status section is displayed on the website, per Mathieu's preference.
+
+### Experimentation section
+
+The former personal interests section is replaced with “Un terrain d’expérimentation” / “A space to experiment”. It describes testing ideas, learning by building, and refining projects. Personal interest tags and biographical references are removed from this section. The header link is “La démarche” / “The approach”.
