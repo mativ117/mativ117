@@ -50,3 +50,7 @@ Attribution actuelle : Calque et CoachOS `building` ; Processarium et Les Royaum
 ## Signature personnelle discrète
 
 Mathieu ne veut pas son prénom/nom en très grand. Garder `mo.` comme signature visuelle, et « Créer. Explorer. Affiner. » / « Create. Explore. Refine. » comme titre d’accueil. Le nom peut rester discret dans le pied de page et les métadonnées.
+
+## Vie du décor orbital
+
+Mathieu souhaite des étoiles et poussières lumineuses subtilement animées autour de la planète d’accueil : mouvements très lents et de faible amplitude, scintillement doux. Conserver cet effet en FR/EN et le désactiver avec `prefers-reduced-motion: reduce`. Le décor reste non interactif et ne doit pas gêner la lecture ou les liens.
