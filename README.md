@@ -62,3 +62,7 @@ Only three shared status codes are used: `building` (En chantier / Work in progr
 ### Experimentation section
 
 The former personal interests section is replaced with “Un terrain d’expérimentation” / “A space to experiment”. It describes testing ideas, learning by building, and refining projects. Personal interest tags and biographical references are removed from this section. The header link is “La démarche” / “The approach”.
+
+### Orbital animation control
+
+The hero has a visible French/English Animation on/off button. With no saved choice, it follows the system reduced-motion preference. Explicit user choice overrides that default and is stored under `mo:motion` in localStorage, shared between language pages. Storage failure is handled; the button still works for the current page. JavaScript is needed only for this enhancement; without it the backdrop stays static and project navigation works. Versioned stylesheet and script URLs prevent older cached files from hiding the update. Browser checks verified FR/EN mobile/desktop, both toggle states, explicit override of reduced motion, persistence across reload, particle movement and no horizontal overflow.
