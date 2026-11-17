@@ -1,42 +1,26 @@
 {
-  "development": {
+  "building": {
     "fr": {
-      "label": "En développement",
-      "description": "Le projet évolue encore ; des fonctions ou validations restent à terminer. Une version peut déjà être accessible."
+      "label": "En chantier"
     },
     "en": {
-      "label": "In development",
-      "description": "The project is evolving, with features or validation still in progress. A version may already be available."
+      "label": "Work in progress"
     }
   },
-  "prototype": {
+  "try": {
     "fr": {
-      "label": "Prototype disponible",
-      "description": "Une première expérience est utilisable pour découvrir le concept, avec un périmètre encore limité."
+      "label": "À essayer"
     },
     "en": {
-      "label": "Prototype available",
-      "description": "An initial experience is available to explore the concept, with a limited scope."
+      "label": "Try it out"
     }
   },
-  "candidate": {
+  "ready": {
     "fr": {
-      "label": "Version candidate",
-      "description": "Le périmètre prévu est livré et passe ses dernières validations avant une version stable."
+      "label": "Prêt à utiliser"
     },
     "en": {
-      "label": "Release candidate",
-      "description": "The planned scope is delivered and undergoing final validation before a stable release."
-    }
-  },
-  "stable": {
-    "fr": {
-      "label": "Version stable",
-      "description": "Le périmètre annoncé est validé pour un usage courant ; des améliorations peuvent suivre."
-    },
-    "en": {
-      "label": "Stable release",
-      "description": "The announced scope has been validated for regular use; further improvements may follow."
+      "label": "Ready to use"
     }
   }
 }

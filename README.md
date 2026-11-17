@@ -52,10 +52,9 @@ Personal introduction led by “Create. Explore. Refine.” and a discreet mo. m
 
 Browser verification covered French and English at 375, 768 and 1440 px: no horizontal overflow, four loaded illustrations, eight project links in application/source order, active language, and no JavaScript errors. Desktop and mobile screenshots were inspected during implementation.
 
-### Explicit project status
 
-Every project has a visible Status row immediately after its title, in French and English. The badge is at least 12 px and remains visible on mobile. The fixed taxonomy now assigns Calque and CoachOS to In development, Processarium to Prototype available, and Les Royaumes de l’Éclipse to Release candidate. Publication alone does not imply a Stable release. The adventure description and action label reflect its current three-chapter release candidate. Browser checks cover both languages at 320, 375, 768 and 1440 px, including visible nonempty status badges, loaded images, direct/source links and no horizontal overflow.
 
-### Fixed status taxonomy
 
-`docs/statuses.json` is the sole source for four French/English display labels and definitions. Projects store a shared code in `docs/projects.js`: `development`, `prototype`, `candidate` or `stable`. Do not duplicate status translations in `docs/projects.en.json`. `node build.cjs` resolves the shared code, rejects unknown states and generates both badges and the expandable status guide. The same four labels must be used for future projects.
+### Project status
+
+Only three shared status codes are used: `building` (En chantier / Work in progress), `try` (À essayer / Try it out), `ready` (Prêt à utiliser / Ready to use). Display labels are centralized in `docs/statuses.json`. Calque and CoachOS currently use `building`; Processarium and Les Royaumes de l’Éclipse use `try`. `ready` requires evidence that the main use is validated. The build rejects unknown codes and generates both language badges. No explanatory status section is displayed on the website, per Mathieu's preference.

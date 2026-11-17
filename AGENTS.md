@@ -39,14 +39,13 @@ Chaque fiche doit afficher sous son titre une ligne « Statut » / « Status » 
 
 ## Nomenclature fixe des statuts
 
-Source unique : `docs/statuses.json`. Dans `docs/projects.js`, utiliser uniquement les codes `development`, `prototype`, `candidate`, `stable`. Ne pas ajouter de statut libre ni de traduction d’état dans `docs/projects.en.json` : le build traduit le code commun pour les deux langues et refuse les codes inconnus.
+Source unique : `docs/statuses.json`. Trois codes exclusivement : `building`, `try`, `ready`. La génération traduit le code commun et refuse tout code inconnu. Ne pas dupliquer le statut dans les traductions des projets.
 
-- `development` — En développement / In development : fonctionnalités ou validations encore en chantier, même si une version est accessible.
-- `prototype` — Prototype disponible / Prototype available : première expérience pour essayer le concept, périmètre limité.
-- `candidate` — Version candidate / Release candidate : périmètre prévu livré, dernières validations avant stabilisation.
-- `stable` — Version stable / Stable release : périmètre annoncé validé pour un usage courant. Ne pas déduire la stabilité de la seule publication.
+- `building` — En chantier / Work in progress : encore en construction, usage principal ou validations en chantier ; une version publique peut exister.
+- `try` — À essayer / Try it out : expérience accessible pour découvrir et tester, encore expérimentale ou en validation.
+- `ready` — Prêt à utiliser / Ready to use : usage principal validé pour une utilisation courante, sans sous-entendre une garantie absolue.
 
-Cette nomenclature remplace les anciens libellés « Application publiée » et « Démonstration interactive ». Attribution actuelle : Calque et CoachOS `development`, Processarium `prototype`, Les Royaumes de l’Éclipse `candidate`. Revoir l’attribution sur preuves lors des évolutions, sans multiplier les libellés.
+Attribution actuelle : Calque et CoachOS `building` ; Processarium et Les Royaumes de l’Éclipse `try`. Réévaluer sur preuves. Cette nomenclature remplace tous les anciens statuts ; ne pas en créer de nouveaux. Mathieu ne veut aucune section ou légende explicative des statuts sur le site : afficher uniquement les badges dans les fiches. Garder les critères dans la documentation du dépôt.
 
 ## Signature personnelle discrète
 
