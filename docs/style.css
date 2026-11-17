@@ -20,16 +20,16 @@
 @media(max-width:560px){.hero{min-height:790px}.hero h1{font-size:clamp(65px,20.5vw,78px);letter-spacing:-4px}.hero h1 em{letter-spacing:-2px}.hero .universe{top:300px}}
 
 
-/* Ambient motion is controlled by the visitor; reduced motion is the default when requested. */
+/* Ambient orbital motion runs automatically; no script or stored preference is needed. */
 .stardust{position:absolute;inset:4% 3%;z-index:1;pointer-events:none}
 .stellar-particle{position:absolute;left:var(--x);top:var(--y);width:var(--size);height:var(--size);border-radius:50%;background:#f4dfbd;opacity:.45;box-shadow:0 0 8px #dfb58088}
-html[data-motion=on] .stellar-particle{animation:stellar-drift var(--duration) ease-in-out var(--delay) infinite!important}
-html[data-motion=on] .star-field{animation:stellar-breath 10s ease-in-out -5s infinite!important}
-html[data-motion=on] .celestial-body{animation:planet-hover 18s ease-in-out -6s infinite!important}
-html[data-motion=off] .stellar-particle,html[data-motion=off] .star-field,html[data-motion=off] .celestial-body{animation:none!important}
+.stellar-particle{animation:stellar-drift var(--duration) ease-in-out var(--delay) infinite!important}
+.star-field{animation:stellar-breath 10s ease-in-out -5s infinite!important}
+.celestial-body{animation:planet-hover 18s ease-in-out -6s infinite!important}
+
 @keyframes stellar-drift{0%,100%{transform:translate3d(0,0,0);opacity:.18}40%{opacity:.9}60%{transform:translate3d(var(--drift),-24px,0);opacity:.65}}
 @keyframes stellar-breath{0%,100%{opacity:.5}50%{opacity:1}}
 @keyframes planet-hover{0%,100%{transform:translate(-50%,-50%) translateY(0)}50%{transform:translate(-50%,-50%) translateY(-7px)}}
-.motion-toggle{display:flex;align-items:center;gap:9px;width:fit-content;min-height:40px;margin-top:12px;padding:7px 10px;background:#0b1218b3;border:1px solid #d7e4e52b;border-radius:4px;color:var(--muted);font:11px var(--sans);cursor:pointer;pointer-events:auto}
-.motion-toggle[hidden]{display:none}.motion-toggle:hover{color:var(--ink);border-color:#dfb58077}.motion-toggle:focus-visible{outline:2px solid var(--amber);outline-offset:5px}.motion-indicator{width:6px;height:6px;border-radius:50%;background:#84939e}.motion-toggle[aria-pressed=true] .motion-indicator{background:var(--amber);box-shadow:0 0 8px #dfb58080}
+
+
 @media(max-width:760px){.hero .universe{opacity:.72}.hero-copy{padding-bottom:155px}}

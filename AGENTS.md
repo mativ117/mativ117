@@ -53,4 +53,4 @@ Mathieu ne veut pas son prénom/nom en très grand. Garder `mo.` comme signature
 
 ## Vie du décor orbital
 
-Mathieu souhaite des étoiles et poussières lumineuses subtilement animées autour de la planète d’accueil : mouvements très lents et de faible amplitude, scintillement doux. Conserver cet effet en FR/EN. Par défaut, respecter `prefers-reduced-motion`; proposer un bouton « Animation : activée / désactivée » pour laisser le visiteur choisir explicitement. Son choix peut activer l’effet même si le système réduit les mouvements. Mémoriser le choix localement, avec repli fonctionnel si le stockage est indisponible. Le décor reste non interactif et ne doit pas gêner la lecture ou les liens.
+Mathieu souhaite une animation orbitale toujours active, sans bouton. Les étoiles et poussières dérivent lentement ; la planète bouge légèrement. Utiliser les animations CSS directement, sans script ni lecture d’une ancienne préférence de stockage. Cette demande remplace les anciennes consignes de bouton et de désactivation automatique. Conserver l’effet en FR/EN, discret et non interactif, sans gêner la lecture.
