@@ -26,5 +26,13 @@
     "primaryLabel": "Explore the workshop",
     "alt": "Illustration of a miniature workshop: three workstations connected by paths, with characters and a review checkpoint.",
     "caption": "Concept illustration · understanding AI workflows."
+  },
+  "ai-learning": {
+    "category": "AI · Interactive learning",
+    "description": "Learn to understand, use, and design AI solutions through missions, practical scenarios, and interactive labs. A learning journey designed for Business Analysts, with progress saved on your device.",
+    "demo": "https://mativ117.github.io/ia_learning/",
+    "primaryLabel": "Start learning",
+    "alt": "Illustration of an AI learning journey: six stages connected by a circuit, with a mission and an exercise highlighted.",
+    "caption": "Concept illustration · learning AI through practice."
   }
 }

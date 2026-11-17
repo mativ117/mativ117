@@ -23,7 +23,9 @@ for (const lang of ['fr','en']) {
 <div class="project-copy"><div class="project-meta"><span>${escape(p.category)}</span></div><h3>${escape(p.name)}</h3><div class="status-row"><span class="status-label">${en?'Status':'Statut'}</span><span class="status">${escape(p.status)}</span></div><p class="description">${escape(p.description)}</p><div class="project-links">${p.demo?`<a class="project-primary" href="${escape(p.demo)}">${escape(p.primaryLabel || (en?'Open the app':'Ouvrir l’application'))} <span aria-hidden="true"><svg class="external-icon" viewBox="0 0 20 20" width="15" height="15" fill="none" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10" stroke="currentColor" stroke-width="1.4"/></svg></span></a>`:''}<a href="${escape(p.source)}">${p.demo?(en?'Source code':'Code source'):(en?'View on GitHub':'Voir sur GitHub')} <span aria-hidden="true"><svg class="external-icon" viewBox="0 0 20 20" width="15" height="15" fill="none" aria-hidden="true"><path d="M5 15 15 5M5 5h10v10" stroke="currentColor" stroke-width="1.4"/></svg></span></a></div></div>
 </article>`;
  }).join('\n');
+ const indexHtml = '<nav class="project-index" aria-label="'+(en?'Jump to a project':'Accéder à un projet')+'">'+context.window.projects.map((p,i)=>'<a href="#'+escape(p.id)+'"><span class="index-number">'+String(i+1).padStart(2,'0')+'</span><span>'+escape(p.name)+'</span><span class="index-arrow" aria-hidden="true">↓</span></a>').join('')+'</nav>';
  const file = path.join(root,en?'en/index.html':'index.html');
- fs.writeFileSync(file,fs.readFileSync(file,'utf8').replace(/<!-- PROJECTS_START -->[\s\S]*?<!-- PROJECTS_END -->/,`<!-- PROJECTS_START -->\n${html}\n<!-- PROJECTS_END -->`));
+ fs.writeFileSync(file,fs.readFileSync(file,'utf8').replace(/<!-- PROJECT_INDEX_START -->[\s\S]*?<!-- PROJECT_INDEX_END -->/, `<!-- PROJECT_INDEX_START -->${indexHtml}<!-- PROJECT_INDEX_END -->`).replace(/<!-- PROJECTS_START -->[\s\S]*?<!-- PROJECTS_END -->/,`<!-- PROJECTS_START -->\n${html}\n<!-- PROJECTS_END -->`));
 }
 console.log('Generated French and English project presentations.');
+

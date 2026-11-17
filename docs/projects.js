@@ -47,5 +47,17 @@ window.projects = [
     "source": "https://github.com/mativ117/processarium_ia",
     "alt": "Illustration d’un atelier miniature : trois postes reliés par des chemins, avec leurs personnages et un point de validation.",
     "caption": "Illustration de principe · comprendre les processus IA."
+  },
+  {
+    "id": "ai-learning",
+    "name": "AI Learning Path",
+    "category": "IA · Formation interactive",
+    "status": "ready",
+    "description": "Apprenez à comprendre, utiliser et concevoir des solutions IA à travers des missions, des cas concrets et des ateliers interactifs. Un parcours pensé pour les analystes métier, avec une progression sauvegardée sur votre appareil.",
+    "demo": "https://mativ117.github.io/ia_learning/?lang=fr",
+    "primaryLabel": "Commencer le parcours",
+    "source": "https://github.com/mativ117/ia_learning",
+    "alt": "Illustration d’un parcours de formation IA : six étapes reliées par un circuit, avec une mission et un exercice mis en évidence.",
+    "caption": "Illustration de principe · apprendre l’IA par la pratique."
   }
 ];

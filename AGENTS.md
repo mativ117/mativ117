@@ -45,7 +45,7 @@ Source unique : `docs/statuses.json`. Trois codes exclusivement : `building`, `t
 - `try` — À essayer / Try it out : expérience accessible pour découvrir et tester, encore expérimentale ou en validation.
 - `ready` — Prêt à utiliser / Ready to use : usage principal validé pour une utilisation courante, sans sous-entendre une garantie absolue.
 
-Attribution actuelle : Calque et CoachOS `building` ; Processarium et Les Royaumes de l’Éclipse `try`. Réévaluer sur preuves. Cette nomenclature remplace tous les anciens statuts ; ne pas en créer de nouveaux. Mathieu ne veut aucune section ou légende explicative des statuts sur le site : afficher uniquement les badges dans les fiches. Garder les critères dans la documentation du dépôt.
+Attribution actuelle : Calque et CoachOS `building` ; Processarium et Les Royaumes de l’Éclipse `try` ; AI Learning Path (`ia_learning`) `ready` (parcours publié, activités disponibles et contrôles d’usage documentés). Réévaluer sur preuves. Cette nomenclature remplace tous les anciens statuts ; ne pas en créer de nouveaux. Mathieu ne veut aucune section ou légende explicative des statuts sur le site : afficher uniquement les badges dans les fiches. Garder les critères dans la documentation du dépôt.
 
 ## Signature personnelle discrète
 
@@ -54,3 +54,7 @@ Mathieu ne veut pas son prénom/nom en très grand. Garder `mo.` comme signature
 ## Vie du décor orbital
 
 Mathieu souhaite une animation orbitale toujours active, sans bouton. Les étoiles et poussières dérivent lentement ; la planète bouge légèrement. Utiliser les animations CSS directement, sans script ni lecture d’une ancienne préférence de stockage. Cette demande remplace les anciennes consignes de bouton et de désactivation automatique. Conserver l’effet en FR/EN, discret et non interactif, sans gêner la lecture.
+
+## Sélection des dépôts
+
+Présenter les projets publics ayant un objectif et un contenu vérifiables. Ne pas ajouter de fiche pour un dépôt vide. À la dernière revue, `d-clic` était vide et reste hors de la vitrine ; réévaluer lorsqu’il contient une présentation et du contenu. Le dépôt de la vitrine ne s’ajoute pas à sa propre liste de projets. L’index d’accueil doit être généré depuis la même liste que les fiches.

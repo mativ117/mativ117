@@ -66,3 +66,7 @@ The former personal interests section is replaced with “Un terrain d’expéri
 ### Orbital animation
 
 Orbital particles and gentle planet motion run automatically in CSS, without a toggle or JavaScript. Old `mo:motion` values are no longer read. This follows Mathieu's explicit preference for always-on animation.
+
+### Repository review — 2026-11-17
+
+AI Learning Path (`ia_learning`) is included in French and English with an original circuit/learning-path illustration. Status: `ready` (Prêt à utiliser / Ready to use), based on the published training journey and documented checks of its main activities. The live site returned HTTP 200 during verification. The French link selects `?lang=fr`, and English opens the default language. `d-clic` was inspected but is empty, so no placeholder project is shown. The site now has five project cards; its homepage index is generated from the same project list. Browser checks confirmed both languages at 375 and 1440 px, loaded illustrations, five status badges, direct application links followed by GitHub links, no overflow, and preserved always-on orbital animation.
